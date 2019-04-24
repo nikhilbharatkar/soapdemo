@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: nikhilbharatkar
+Build-Jdk: 12
+Implementation-Title: spring-boot-soap-contractfirst-example
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.app
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/spring-boot-soap-contractfirst-example
+Created-By: Maven Integration for Eclipse
+
