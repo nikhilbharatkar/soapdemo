@@ -1,4 +1,9 @@
 -------------------------------------------------------------------------------
 Test set: com.app.springbootsoapcontractfirstexample.SpringBootSoapContractfirstExampleApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.79 s - in com.app.springbootsoapcontractfirstexample.SpringBootSoapContractfirstExampleApplicationTests
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 10.689 s <<< FAILURE! - in com.app.springbootsoapcontractfirstexample.SpringBootSoapContractfirstExampleApplicationTests
+contextLoads(com.app.springbootsoapcontractfirstexample.SpringBootSoapContractfirstExampleApplicationTests)  Time elapsed: 0.014 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userEndPoint': Unsatisfied dependency expressed through field 'UserService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.app.springbootcontractfirstexample.service.UserService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true), @org.springframework.beans.factory.annotation.Qualifier(value="userService")}
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.app.springbootcontractfirstexample.service.UserService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true), @org.springframework.beans.factory.annotation.Qualifier(value="userService")}
+

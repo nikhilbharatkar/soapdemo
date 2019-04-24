@@ -1,5 +1,5 @@
-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope"
-				  	xmlns:us="http://soapdemo.com/students">				  	
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+				  	xmlns:us="http://app.com/spring-boot-soap-example">				  	
 	<soapenv:Header/>
 	<soapenv:Body>
 		<us:GetUserRequest>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
  
  <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
- 			xmlns:tns="http://app.com/spring_boot_soap_example"
- 			targetNamespace="http://app.com/spring_boot_soap_example"
+ 			xmlns:tns="http://app.com/spring-boot-soap-example"
+ 			targetNamespace="http://app.com/spring-boot-soap-example"
  			elementFormDefault="qualified">
  			
  		
